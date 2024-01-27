@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toastTarea"
+    android:orientation="horizontal"
+    android:background="@drawable/background_toast_ok"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center|center_horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/check"/>
+
+    <TextView
+        android:id="@+id/MensajeToast2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/decembershow"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="Tarea añadida"
+        android:textColor="#fff"/>
+
+
+
+</LinearLayout>

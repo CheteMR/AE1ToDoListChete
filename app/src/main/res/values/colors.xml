@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorTareas">#004D40</color>
+    <color name="colorEmail">#00695C</color>
+    <color name="colorpassword">#00695C</color>
+    <color name="colorboton">#00796B</color>
+    <color name="colorCuenta">#00796B</color>
+    <color name="colorError">#B00020</color>
+</resources>

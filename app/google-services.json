@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714276188182",
+    "project_id": "todolist-chete-project",
+    "storage_bucket": "todolist-chete-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714276188182:android:798f6d471afcd81d3b4537",
+        "android_client_info": {
+          "package_name": "com.example.ae1todolistchete"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtf1-wOAfFMDmNsiPF_RchX3ooV_W5Fac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

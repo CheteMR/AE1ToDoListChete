@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/textoGoogle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/decembershow"
+        android:text="@string/mis_tareas"
+        android:textAllCaps="false"
+        android:textColor="@color/colorTareas"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutCorreo"
+        android:layout_width="309dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cajaCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/hintCorreo"
+            android:textColorHint="@color/colorEmail"
+            android:textSize="16sp" />
+
+        <requestFocus />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="309dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutCorreo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cajaPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/hintPass"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorpassword"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/botonLogin"
+        android:layout_width="307dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/colorboton"
+        android:text="@string/acceder"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+
+
+    <TextView
+        android:id="@+id/botonRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Crear una cuenta"
+        android:textColor="@color/colorCuenta"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonLogin" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

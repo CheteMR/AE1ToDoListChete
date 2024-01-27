@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lista de Tareas</string>
+    <string name="hintCorreo">email</string>
+    <string name="hintPass">password</string>
+    <string name="acceder">Acceder</string>
+    <string name="logout">Logout</string>
+    <string name="mas">mas</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="mis_tareas">Mis Tareas</string>
+    <string name="tarea">Tarea</string>
+    <string name="editar">Editar</string>
+    <string name="google">Google</string>
+    <string name="crear_una_cuenta_con_google">Crear una cuenta con Google</string>
+    <string name="default_web_client_id" />
+</resources>

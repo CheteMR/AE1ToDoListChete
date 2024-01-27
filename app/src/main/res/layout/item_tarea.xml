@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/decembershow"
+        android:text="@string/tarea"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonTareaEliminar"
+        android:layout_width="63dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:backgroundTint="@color/colorEmail"
+        android:onClick="borrarTarea"
+        app:icon="@drawable/ic_delete"
+        app:iconGravity="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/botonTareaEditar"
+        android:layout_width="61dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="88dp"
+
+        android:backgroundTint="@color/colorEmail"
+
+        app:icon="@drawable/ic_edit"
+        app:iconGravity="textEnd"
+        android:onClick="botonEditar"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
